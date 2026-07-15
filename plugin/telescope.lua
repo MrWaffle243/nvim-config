@@ -1,7 +1,7 @@
 -- Telescope
 vim.pack.add({
-  { src = 'https://github.com/nvim-lua/plenary.nvim' },
-  { src = 'https://github.com/nvim-telescope/telescope.nvim' },
+    { src = 'https://github.com/nvim-lua/plenary.nvim' },
+    { src = 'https://github.com/nvim-telescope/telescope.nvim' },
 })
 -- fzf-native needs a `make` step, so either prebuild or:
 vim.pack.add({ { src = 'https://github.com/nvim-telescope/telescope-fzf-native.nvim',

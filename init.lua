@@ -1,1 +1,2 @@
 require("conor")
+--require("plugin")
