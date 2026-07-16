@@ -21,6 +21,10 @@
       "rev": "221ce6b2d999187044529f49da6554a92f740a96",
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
+    "molokai": {
+      "rev": "c67bdfcdb31415aa0ade7f8c003261700a885476",
+      "src": "https://github.com/tomasr/molokai"
+    },
     "nvim-treesitter": {
       "rev": "4916d6592ede8c07973490d9322f187e07dfefac",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"

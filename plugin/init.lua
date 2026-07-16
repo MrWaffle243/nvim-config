@@ -33,7 +33,13 @@ vim.pack.add({
 })
 
 require('lualine').setup({
-    options = { theme = 'auto' }
+    options = { 
+        theme = 'auto' 
+    },
+    sections = {
+        lualine_c = { {"filename", path = 1 } },
+        lualine_x = {"filetype"}
+    }
 })
 
 -- Undo Tree
